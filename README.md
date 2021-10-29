@@ -117,11 +117,23 @@
   * [React.Component](https://zh-hans.reactjs.org/docs/react-component.html#constructor)
   * [你真的了解 React 生命周期吗](https://juejin.cn/post/6844904021233238024#heading-2)
 * Hooks 作用及原理
-  > 推荐阅读 React 官方的 Hooks 文档, 了解 React Hook 的概念和设计动机
+  > 首先推荐阅读 React 官方的 Hooks 文档, 了解 React Hook 的概念和设计动机
 
   * [Hook 简介](https://zh-hans.reactjs.org/docs/hooks-intro.html)
   * [Hook 概览](https://zh-hans.reactjs.org/docs/hooks-overview.html)
   * [Making Sense of React Hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889) 
+
+  > 其次详细了解 useState, useEffect, useMemo, useCallback, useRef 等具体 React 内置 Hook 的使用细节
+
+  * [Hook API 索引](https://zh-hans.reactjs.org/docs/hooks-reference.html#usestate)
+  * [Hook 规则](https://zh-hans.reactjs.org/docs/hooks-rules.html)
+  * [自定义 Hook](https://zh-hans.reactjs.org/docs/hooks-custom.html)
+
+  > 最后，建议了解当前社区对一些常见 Hook 使用疑点的解答
+  
+  * [Hooks FAQ](https://zh-hans.reactjs.org/docs/hooks-faq.html)
+
+
 
 # Code Shredded
 * 防抖与节流
