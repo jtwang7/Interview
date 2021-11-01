@@ -99,7 +99,7 @@
 * Cookie, Session, Token, JWT
   * [傻傻分不清之 Cookie、Session、Token、JWT](https://juejin.cn/post/6844904034181070861#heading-22)
 * GET 与 POST 的区别
-  * [get和post 两种基本请求方式的区别](https://www.cnblogs.com/mark5/p/11075383.html)
+  * [my-issue: get和post请求方式的区别](https://github.com/jtwang7/Internet-Note/issues/9)
   > * [get请求在浏览器回退时是无害的这句话要怎么理解](https://segmentfault.com/q/1010000014456539)
   > * [my-issue: post提交数据的编码格式？](https://github.com/jtwang7/Internet-Note/issues/8)
 * HTTP 长连接/短连接
