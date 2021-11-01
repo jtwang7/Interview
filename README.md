@@ -85,6 +85,10 @@
 * TCP 与 UDP 区别
   * [my-issue: TCP 与 UDP](https://github.com/jtwang7/Interview/issues/6#issue-1005372215)
   * [TCP和UDP比较](https://juejin.cn/post/6844903800336023560)
+* TCP 三次握手 / 四次挥手
+  * [my-issue: TCP 连接的三次握手与四次挥手](https://github.com/jtwang7/Internet-Note/issues/6)
+* HTTP 的请求方法
+  * [my-issue: HTTP 请求方法概览](https://github.com/jtwang7/Internet-Note/issues/7)
 * XSS / CSRF 攻击及防御
   * [【面试篇】寒冬求职之你必须要懂的Web安全](https://juejin.cn/post/6844903842635579405)
   * [能不能说一说XSS攻击？](https://juejin.cn/post/6844904021308735502#heading-64)
