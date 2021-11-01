@@ -132,7 +132,12 @@
   > 最后，建议了解当前社区对一些常见 Hook 使用疑点的解答
   
   * [Hooks FAQ](https://zh-hans.reactjs.org/docs/hooks-faq.html)
-
+* 受控组件与非受控组件
+  * [my-issue: 受控组件 & 非受控组件](https://github.com/jtwang7/React-Note/issues/35#issue-1040890566)
+* Flux架构模式（涉及MVC/MVVM、Flux）
+  * [my-issue: 浅谈前端架构模式(MVC / MVP / MVVM / Flux)](https://github.com/jtwang7/React-Note/issues/33#issue-1040755482)
+* 纯组件（Pure Component）与shouldComponentUpdate关系
+  * [my-issue: 浅谈 PureComponent 和 shouldComponentUpdate 间的关系](https://github.com/jtwang7/React-Note/issues/34)
 
 
 # Code Shredded
