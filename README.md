@@ -2,19 +2,35 @@
 # JavaScript
 * 原始值和引用值类型及区别
   * [【JS 进阶】你真的掌握变量和类型了吗](https://juejin.cn/post/6844903854882947080)
+
 * 判断数据类型typeof、instanceof、Object.prototype.toString.call()、constructor
   * [【JS 进阶】你真的掌握变量和类型了吗](https://juejin.cn/post/6844903854882947080)
+
 * 类数组与数组的区别与转换
   * [JavaScript 类数组对象与 arguments](https://juejin.cn/post/6844903711022514184)
   * [类数组转化](https://juejin.cn/post/6844903976081555470#heading-78)
+
 * 数组的常见API
   * [js 数组详细操作方法及解析合集](https://juejin.cn/post/6844903614918459406)
+
 * bind、call、apply的区别
   * [「干货」细说 call、apply 以及 bind 的区别和用法](https://juejin.cn/post/6844903768132157447)
+
 * new 操作符
   * [my-issue: JS 基础篇 - new 操作符 ](https://github.com/jtwang7/JavaScript-Note/issues/50)
+
 * this 指向判断
   * [my-issue: JS深入浅出 - 确定 this 对象指向](https://github.com/jtwang7/JavaScript-Note/issues/6)
+
+* JS 闭包及其应用场景
+  * [my-issue: JS深入浅出 - 闭包](https://github.com/jtwang7/JavaScript-Note/issues/7)
+
+* JS 原型/原型链/继承
+  * 《JavaScript 高级程序设计》(第 4 版) (P220 - 248)
+
+* prototype与__proto__的关系与区别
+  * []()
+
 * JS 的四种函数调用方式
   * [JS 中的函数调用](https://juejin.cn/post/6844903496253177863#heading-11)
 * 函数柯里化及其通用封装
@@ -30,12 +46,8 @@
 * DOM 级别事件绑定
   * 《JavaScript 高级程序设计》(第 4 版) (事件处理程序 P493 - 498)
   * [my-issue: JS 事件篇 - 事件处理程序](https://github.com/jtwang7/JavaScript-Note/issues/39)
-* JS 闭包及其应用场景
-  * [my-issue: JS深入浅出 - 闭包](https://github.com/jtwang7/JavaScript-Note/issues/7)
 * JS 中的垃圾回收机制和内存泄漏
   * [JavaScript中的垃圾回收和内存泄漏](https://juejin.cn/post/6844903833387155464)
-* JS 原型/原型链/继承
-  * 《JavaScript 高级程序设计》(第 4 版) (P220 - 248)
 * JS 事件流(冒泡/捕获)
   * 《JavaScript 高级程序设计》(第 4 版) (P490 - 492)
   * [my-issue: JS 事件篇 - 事件冒泡 & 捕获机制](https://github.com/jtwang7/JavaScript-Note/issues/38)
