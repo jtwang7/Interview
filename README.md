@@ -19,11 +19,11 @@
 * new 操作符
   * [my-issue: JS 基础篇 - new 操作符 ](https://github.com/jtwang7/JavaScript-Note/issues/50)
 
+* new 和 Object.create() 的区别
+  * [JS 基础篇 - new 和 Object.create() 的区别](https://github.com/jtwang7/JavaScript-Note/issues/52)
+
 * this 指向判断
   * [my-issue: JS深入浅出 - 确定 this 对象指向](https://github.com/jtwang7/JavaScript-Note/issues/6)
-
-* JS 闭包及其应用场景
-  * [my-issue: JS深入浅出 - 闭包](https://github.com/jtwang7/JavaScript-Note/issues/7)
 
 * JS 原型/原型链/继承
   * 《JavaScript 高级程序设计》(第 4 版) (P220 - 248)
@@ -31,26 +31,42 @@
 * prototype与__proto__的关系与区别
   * [my-issue: JS 基础篇 - prototype与__proto__的关系与区别](https://github.com/jtwang7/JavaScript-Note/issues/51)
 
-* JS 的四种函数调用方式
-  * [JS 中的函数调用](https://juejin.cn/post/6844903496253177863#heading-11)
-* 函数柯里化及其通用封装
-  * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
-  * [my-issue: CodeShredded - 函数柯里化](https://github.com/jtwang7/Code-Shredded/issues/17)
-* BOM 的 location 对象
-  * [浏览器Location 对象，URL 对象，URLSearchParams 对象简析](https://juejin.cn/post/6999077663587434533)
-  * [my-issue: JS BOM 篇 - location 对象](https://github.com/jtwang7/JavaScript-Note/issues/44#issue-1020633051)
+* 作用域、作用域链、执行期上下文
+  * [JS深入浅出 - 执行上下文 (Excution Context)](https://github.com/jtwang7/JavaScript-Note/issues/3)
+  * [JS深入浅出 - 变量对象](https://github.com/jtwang7/JavaScript-Note/issues/4)
+  * [JS深入浅出 - 作用域链](https://github.com/jtwang7/JavaScript-Note/issues/5)
+
+* JS 闭包及其应用场景
+  * [my-issue: JS深入浅出 - 闭包](https://github.com/jtwang7/JavaScript-Note/issues/7)
+
 * DOM 及 DOM 扩展
   * 通读《JavaScript 高级程序设计》(第 4 版) (第 14 章 DOM；第 15 章 DOM 扩展；第 16 章 DOM2 和 DOM3) P401 - P489
-* Event-Loop 事件循环 & 宏任务与微任务
-  * [my-issue: JS 基础篇 - 宏任务与微任务 & EventLoop事件循环](https://github.com/jtwang7/JavaScript-Note/issues/49)
+
+* JS 中的垃圾回收机制和内存泄漏
+  * [JavaScript中的垃圾回收和内存泄漏](https://juejin.cn/post/6844903833387155464)
+
 * DOM 级别事件绑定
   * 《JavaScript 高级程序设计》(第 4 版) (事件处理程序 P493 - 498)
   * [my-issue: JS 事件篇 - 事件处理程序](https://github.com/jtwang7/JavaScript-Note/issues/39)
-* JS 中的垃圾回收机制和内存泄漏
-  * [JavaScript中的垃圾回收和内存泄漏](https://juejin.cn/post/6844903833387155464)
+
+* BOM 的 location 对象
+  * [浏览器Location 对象，URL 对象，URLSearchParams 对象简析](https://juejin.cn/post/6999077663587434533)
+  * [my-issue: JS BOM 篇 - location 对象](https://github.com/jtwang7/JavaScript-Note/issues/44#issue-1020633051)
+
+* JS 的四种函数调用方式
+  * [JS 中的函数调用](https://juejin.cn/post/6844903496253177863#heading-11)
+
+* 函数柯里化及其通用封装
+  * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
+  * [my-issue: CodeShredded - 函数柯里化](https://github.com/jtwang7/Code-Shredded/issues/17)
+
+* Event-Loop 事件循环 & 宏任务与微任务
+  * [my-issue: JS 基础篇 - 宏任务与微任务 & EventLoop事件循环](https://github.com/jtwang7/JavaScript-Note/issues/49)
+
 * JS 事件流(冒泡/捕获)
   * 《JavaScript 高级程序设计》(第 4 版) (P490 - 492)
   * [my-issue: JS 事件篇 - 事件冒泡 & 捕获机制](https://github.com/jtwang7/JavaScript-Note/issues/38)
+
 * JS 事件委托
   * 《JavaScript 高级程序设计》(第 4 版) (P540 - 542)
 
