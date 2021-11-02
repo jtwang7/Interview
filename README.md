@@ -70,6 +70,11 @@
 * JS 事件委托
   * 《JavaScript 高级程序设计》(第 4 版) (P540 - 542)
 
+* 浏览器从输入URL到页面渲染的整个流程（涉及到计算机网络数据传输过程、浏览器解析渲染过程）
+  * [浅谈 DNS](https://github.com/jtwang7/Internet-Note/issues/11)
+  * [TCP 连接的三次握手与四次挥手](https://github.com/jtwang7/Internet-Note/issues/6)
+  * [浏览器页面渲染机制](https://github.com/jtwang7/JavaScript-Note/issues/53)
+
 * 浏览器的回流（Reflow）和重绘（Repaints）
   * [my-issue: JS深入浅出 - 浏览器的重绘(Repaint)与回流(Reflow)](https://github.com/jtwang7/JavaScript-Note/issues/2)
 
