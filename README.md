@@ -130,6 +130,9 @@
   * [my-issue: TCP 与 UDP](https://github.com/jtwang7/Interview/issues/6#issue-1005372215)
   * [TCP和UDP比较](https://juejin.cn/post/6844903800336023560)
 
+* TCP 报文结构
+  * [my-issue: TCP 报文首部格式](https://github.com/jtwang7/Internet-Note/issues/10)
+
 * TCP 三次握手 / 四次挥手
   * [my-issue: TCP 连接的三次握手与四次挥手](https://github.com/jtwang7/Internet-Note/issues/6)
 
