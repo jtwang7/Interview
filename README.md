@@ -29,7 +29,7 @@
   * 《JavaScript 高级程序设计》(第 4 版) (P220 - 248)
 
 * prototype与__proto__的关系与区别
-  * []()
+  * [my-issue: JS 基础篇 - prototype与__proto__的关系与区别](https://github.com/jtwang7/JavaScript-Note/issues/51)
 
 * JS 的四种函数调用方式
   * [JS 中的函数调用](https://juejin.cn/post/6844903496253177863#heading-11)
