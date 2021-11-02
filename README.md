@@ -70,6 +70,12 @@
 * JS 事件委托
   * 《JavaScript 高级程序设计》(第 4 版) (P540 - 542)
 
+* 浏览器的回流（Reflow）和重绘（Repaints）
+  * [my-issue: JS深入浅出 - 浏览器的重绘(Repaint)与回流(Reflow)](https://github.com/jtwang7/JavaScript-Note/issues/2)
+
+* setTimeout 计时为何会出现误差？requestAnimationFrame？
+  * [JS深入浅出 - requestAnimationFrame](https://github.com/jtwang7/JavaScript-Note/issues/1)
+
 # ES6
 * let / const
   * [let 和 const 命令](https://es6.ruanyifeng.com/#docs/let)
