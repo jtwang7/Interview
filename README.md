@@ -14,7 +14,7 @@
 * new 操作符
   * [my-issue: JS 基础篇 - new 操作符 ](https://github.com/jtwang7/JavaScript-Note/issues/50)
 * this 指向判断
-  * [JS深入浅出 - 确定 this 对象指向](https://github.com/jtwang7/JavaScript-Note/issues/6)
+  * [my-issue: JS深入浅出 - 确定 this 对象指向](https://github.com/jtwang7/JavaScript-Note/issues/6)
 * JS 的四种函数调用方式
   * [JS 中的函数调用](https://juejin.cn/post/6844903496253177863#heading-11)
 * 函数柯里化及其通用封装
