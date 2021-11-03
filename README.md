@@ -181,6 +181,9 @@
 * HTTPS与HTTP区别及实现方式
   * [my-issue: HTTPS ?](https://github.com/jtwang7/Internet-Note/issues/13)
 
+* 基于 HTTP 的功能追加协议
+  * [my-issue: 基于 HTTP 的功能追加协议](https://github.com/jtwang7/Internet-Note/issues/14)
+
 
 # React
 * Virtual DOM
