@@ -78,6 +78,9 @@
 * 浏览器的回流（Reflow）和重绘（Repaints）
   * [my-issue: JS深入浅出 - 浏览器的重绘(Repaint)与回流(Reflow)](https://github.com/jtwang7/JavaScript-Note/issues/2)
 
+* 跨域、同源策略及跨域实现方式和原理
+  * [my-issue: 跨域、同源策略及跨域实现方式和原理](https://github.com/jtwang7/JavaScript-Note/issues/54)
+
 * setTimeout 计时为何会出现误差？requestAnimationFrame？
   * [JS深入浅出 - requestAnimationFrame](https://github.com/jtwang7/JavaScript-Note/issues/1)
 
