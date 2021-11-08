@@ -252,7 +252,15 @@
   * [my-issue: 原型式继承](https://github.com/jtwang7/Code-Shredded/blob/master/%E7%BB%A7%E6%89%BF/%E5%8E%9F%E5%9E%8B%E5%BC%8F%E7%BB%A7%E6%89%BF.js)
   * [my-issue: 组合式继承](https://github.com/jtwang7/Code-Shredded/blob/master/%E7%BB%A7%E6%89%BF/%E7%BB%84%E5%90%88%E5%BC%8F%E7%BB%A7%E6%89%BF.js)
   * [my-issue: 寄生组合式继承](https://github.com/jtwang7/Code-Shredded/blob/master/%E7%BB%A7%E6%89%BF/%E5%AF%84%E7%94%9F%E7%BB%84%E5%90%88%E5%BC%8F%E7%BB%A7%E6%89%BF.js)
+
 * 数组去重
   * [my-issue: CodeShredded - 数组去重](https://github.com/jtwang7/Code-Shredded/issues/3)
+
 * 几种排序算法的实现及其复杂度比较
   * [my-issue: CodeShredded - 排序算法](https://github.com/jtwang7/Code-Shredded/issues/18)
+
+* JSONP 跨域实现
+  * [my-issue: JSONP](https://github.com/jtwang7/Code-Shredded/blob/master/JSONP/jsonp.js)
+
+* 深拷贝的几种方法与比较
+  * [my-issue: CodeShredded - 拷贝](https://github.com/jtwang7/Code-Shredded/issues/19)
