@@ -264,3 +264,7 @@
 
 * 深拷贝的几种方法与比较
   * [my-issue: CodeShredded - 拷贝](https://github.com/jtwang7/Code-Shredded/issues/19)
+
+* Iterator 遍历器/ Iterable 可迭代对象实现
+  * [my-issue: CodeShredded - Iterator](https://github.com/jtwang7/Code-Shredded/blob/master/Iterator%26Iterable/Iterator.js)
+  * [my-issue: CodeShredded - Iterable](https://github.com/jtwang7/Code-Shredded/blob/master/Iterator%26Iterable/Iterable.js)
