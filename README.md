@@ -274,3 +274,6 @@
 
 * 解析 URL 参数为对象
   * [my-issue: CodeShredded - 解析 URL 参数为对象](https://github.com/jtwang7/Code-Shredded/issues/20)
+
+* 模板字符串解析
+  * [my-issue: CodeShredded - 模板字符串解析](https://github.com/jtwang7/Code-Shredded/issues/21)
