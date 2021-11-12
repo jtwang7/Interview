@@ -277,3 +277,6 @@
 
 * 模板字符串解析
   * [my-issue: CodeShredded - 模板字符串解析](https://github.com/jtwang7/Code-Shredded/issues/21)
+
+* 图片懒加载
+  * [my-issue: CodeShredded - 图片懒加载](https://github.com/jtwang7/Code-Shredded/issues/22)
