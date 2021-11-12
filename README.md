@@ -271,3 +271,6 @@
 * Iterator 遍历器/ Iterable 可迭代对象实现
   * [my-issue: CodeShredded - Iterator](https://github.com/jtwang7/Code-Shredded/blob/master/Iterator%26Iterable/Iterator.js)
   * [my-issue: CodeShredded - Iterable](https://github.com/jtwang7/Code-Shredded/blob/master/Iterator%26Iterable/Iterable.js)
+
+* 解析 URL 参数为对象
+  * [my-issue: CodeShredded - 解析 URL 参数为对象](https://github.com/jtwang7/Code-Shredded/issues/20)
