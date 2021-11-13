@@ -300,3 +300,6 @@
   * [my-issue: reduce](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/reduce.js)
   * [my-issue: map(for 实现)](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/for-map.js)
   * [my-issue: map(reduce 实现)](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/reduce-map.js)
+
+* EventEmitter 发布订阅模式
+  * [my-issue: EventEmitter](https://github.com/jtwang7/Code-Shredded/blob/master/%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/EventEmitter.js)
