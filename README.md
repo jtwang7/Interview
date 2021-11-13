@@ -280,3 +280,23 @@
 
 * 图片懒加载
   * [my-issue: CodeShredded - 图片懒加载](https://github.com/jtwang7/Code-Shredded/issues/22)
+
+* 函数柯里化
+  * [my-issue: CodeShredded - 函数柯里化](https://github.com/jtwang7/Code-Shredded/issues/17)
+
+* 实现函数原型方法：bind / call / apply
+  * [my-issue: bind](https://github.com/jtwang7/Code-Shredded/blob/master/call%26apply%26bind/bind.js)
+  * [my-issue: call](https://github.com/jtwang7/Code-Shredded/blob/master/call%26apply%26bind/call.js)
+  * [my-issue: apply](https://github.com/jtwang7/Code-Shredded/blob/master/call%26apply%26bind/apply.js)
+
+* 实现数组原型方法
+  * [my-issue: forEach](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/forEach.js)
+  * [my-issue: every](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/every.js)
+  * [my-issue: some](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/some.js)
+  * [my-issue: find](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/find.js)
+  * [my-issue: findIndex](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/findIndex.js)
+  * [my-issue: fill](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/fill.js)
+  * [my-issue: filter](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/filter.js)
+  * [my-issue: reduce](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/reduce.js)
+  * [my-issue: map(for 实现)](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/for-map.js)
+  * [my-issue: map(reduce 实现)](https://github.com/jtwang7/Code-Shredded/blob/master/%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/reduce-map.js)
