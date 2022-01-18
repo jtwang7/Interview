@@ -91,15 +91,67 @@ ES6：
 
 * bind、call、apply的区别
   * [「干货」细说 call、apply 以及 bind 的区别和用法](https://juejin.cn/post/6844903768132157447)
+```js
+bind/call/apply的作用：本质是改变函数调用的this指向(即函数执行的上下文)，形象理解就是将一个对象的内部方法借给另一个对象调用。因此，bind/call/apply方法的作用对象必须是一个函数(某个对象的方法)。
+区别：
+Function.call(obj,[param1[,param2[,…[,paramN]]]])
+Function.bind(thisArg[, arg1[, arg2[, ...]]])
+Function.apply(obj[,argArray])
+1. call和apply区别在于参数：
+call()从第二个参数开始，可以接收任意个参数。每个参数会映射到相应位置的 Function 的参数上。但是如果将所有的参数作为数组传入，它们会作为一个整体映射到 Function 对应的第一个参数上，之后参数都为空。
+apply()第二个参数，必须是数组或者类数组，它们会被转换成类数组，传入 Function 中，并且会被映射到 Function 对应的参数上。
+2. bind和call/apply的区别在于执行时机：
+bind()返回值是函数，并且需要稍后调用，才会执行。而 apply()和 call()则是立即调用。bind()参数同 call()，从第二个参数开始接收若干参数传入回调函数。
+```
 
 * new 操作符
   * [my-issue: JS 基础篇 - new 操作符 ](https://github.com/jtwang7/JavaScript-Note/issues/50)
+```js
+作用：创建一个用户定义的对象类型的实例或具有构造函数的内置对象的实例。该实例可以访问到构造函数内置对象中的属性和方法及其原型链上的属性和方法。
+
+实现：
+1. 创建一个新的对象;
+2. 将该对象连接到构造函数的原型链上(使新对象可以调用构造函数原型链上的属性和方法)；
+3. 利用call或apply在新对象上挂载构造函数内部定义的属性和方法(使新对象可以调用构造函数自身定义的属性和方法)；
+4. 判断构造函数的返回值类型，返回最终结果：
+* 若构造函数返回原始类型(或没有显示返回值)，则忽略该返回值，并返回当前创建的实例对象
+* 若构造函数返回引用类型，则返回这个引用类型的对象，忽略创建的实例
+
+function myNew(Fn, ...args) {
+  let _this = Object.create(Fn.prototype); // Object.create()作用：基于原型对象创建新的空对象
+  let obj = Fn.apply(_this, args);
+  return (obj instanceof Object) ? obj : _this;
+}
+```
 
 * new 和 Object.create() 的区别
   * [JS 基础篇 - new 和 Object.create() 的区别](https://github.com/jtwang7/JavaScript-Note/issues/52)
+```js
+Object.create(obj)作用：将传入的对象参数作为原型对象，创建并返回一个新的对象，新创建的对象对应的原型对象为obj。
+
+实现：
+Object.create = (obj, properties) => {
+  let F = new Function();
+  F.prototype = obj; // 以 obj 作为 F 构造函数的原型对象
+  if (properties) {
+    Object.defineProperties(F, properties);
+  }
+  return new F();
+}
+
+区别：new创建的对象，挂载了构造函数的所有属性和方法，并且可以向上访问到构造函数原型链上共享的一些属性和方法；Object.create()创建的对象，本质上是参数对象的一个副本。
+```
 
 * this 指向判断
   * [my-issue: JS深入浅出 - 确定 this 对象指向](https://github.com/jtwang7/JavaScript-Note/issues/6)
+```js
+this对象存在四种绑定方式：
+1. new绑定(new Fn())
+2. 显示绑定(call/apply/bind)
+3. 隐式绑定(obj.xxx())
+4. 默认绑定(undefined(use strict)/全局对象(not use strict))
+this绑定优先级：new绑定 > 显式绑定 > 隐式绑定 > 默认绑定
+```
 
 * JS 原型/原型链/继承
   * 《JavaScript 高级程序设计》(第 4 版) (P220 - 248)
