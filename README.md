@@ -9,9 +9,85 @@
 * 类数组与数组的区别与转换
   * [JavaScript 类数组对象与 arguments](https://juejin.cn/post/6844903711022514184)
   * [类数组转化](https://juejin.cn/post/6844903976081555470#heading-78)
+```js
+类数组对象定义：指可以通过索引属性访问元素并且拥有length属性的对象。
+let arrLike = {
+  0: 'name',
+  1: 'age',
+  2: 'job',
+  length: 3
+}
+类数组对象与数组对象的联系与区别：
+联系：类数组对象在访问、赋值、获取长度上的操作与数组是一致的。
+区别：类数组对象不能直接使用数组的方法。
+若希望类数组对象能够和数组一样使用数组的方法，可以通过 Function.call 或者 Function.apply 方法来间接调用，或者将类数组对象转为数组对象后，使用数组方法。
+
+类数组对象转数组对象的四种方法，以 arguments 为例：
+1. Array.prototype.splice.call(arguments) ：改变slice里面的this指向arguments,使得arguments可间接调用数组的方法(会改变原对象)
+2. Array.prototype.slice.apply(arguments) ：改变slice里面的this指向arguments,使得arguments可间接调用数组的方法(不会改变原对象)
+3. Array.from(arguments) ：将类数组或可迭代对象创建为数组
+4. [...arguments] ：扩展类数组,再重新定义为数组
+```
 
 * 数组的常见API
   * [js 数组详细操作方法及解析合集](https://juejin.cn/post/6844903614918459406)
+```js
+数组创建方法(4种)：
+1. 字面量方式：let a = [2, 4, 6]
+2. Array()：let a = Array(); let b = Array(3); let c = Array(2,4,6); // a:[]; b:[,,]; c:[2,4,6]
+3. Array.of()：let a = Array.of(3); let b = Array.of(2,4,6); // a:[3]; b:[2, 4, 6]
+Array.of() 出现的目的是为了解决上述构造器因参数个数不同，导致的行为有差异的问题。
+4. Array.from()：将类数组对象或可迭代对象转为真正的数组（不改变原对象，返回新的数组）。
+
+改变原数组的方法(9种)：
+ES5:
+1. a.splice()：增删改
+2. a.sort()：排序
+3. a.pop()：删尾
+4. a.shift()：删首
+5. a.push()：增尾
+6. a.unshift()：删首
+7. a.reverse()：反序
+ES6:
+8. a.copyWithin()：复制
+9. a.fill()：填充
+对于改变原数组的数组方法，注意避免在循环遍历中改变原数组的选项，比如: 改变数组的长度，导致遍历的长度出现问题。
+
+不改变原数组的方法(8种)：
+ES5：
+1. a.slice()：浅拷贝
+2. a.join()：基于自定义分隔符转字符串
+3. a.toLocateString()：转字符串，逗号分隔
+4. a.toString()：转字符串，逗号分隔
+5. a.concat()：拼接
+6. a.indexOf()：查找元素，返回第一个匹配元素的下标
+7. a.lastIndexOf()：查找元素，返回第一个匹配元素的下标
+ES7：
+8. a.includes()：查找元素是否存在，返回布尔值
+
+数组遍历方法(12种)：
+ES5：
+1. a.forEach()：遍历数组，对每项均执行回调
+* 无法中途退出循环，只能用return退出本次回调，进行下一次回调。
+* 它总是返回 undefined值,即使你return了一个值。
+2. a.every()：检测数组所有元素是否都符合判断条件
+3. a.some()：检测数组是否存在某元素符合判断条件
+4. a.filter()：过滤原始数组，返回新数组
+5. a.map()：对数组内各项元素调用回调进行处理，返回新的数组
+6. a.reduce()：为数组提供从左到右的累加器，返回最终合并结果
+7. a.reduceRight()：从右到左累加
+ES6：
+8. a.find()：根据条件找到数组成员
+9. a.findIndex()：根据条件找到数组成员位置索引
+10. a.keys()：遍历键名，返回包含键名的 Array Iterator 对象
+11. a.values()：遍历键值，返回包含键值的 Array Iterator 对象
+12. a.entries()：遍历键值对，返回包含键值对数组的 Array Iterator 对象
+数组遍历方法的通用规则：
+1. 对于空数组是不会执行回调函数的
+2. 对于已在迭代过程中删除的元素，或者空元素会跳过回调函数
+3. 遍历次数再第一次循环前就会确定，再添加到数组中的元素不会被遍历。
+4. 如果已经存在的值被改变，则传递给 callback 的值是遍历到他们那一刻的值。
+```
 
 * bind、call、apply的区别
   * [「干货」细说 call、apply 以及 bind 的区别和用法](https://juejin.cn/post/6844903768132157447)
