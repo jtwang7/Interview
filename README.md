@@ -177,11 +177,11 @@ this绑定优先级：new绑定 > 显式绑定 > 隐式绑定 > 默认绑定
 ```
 
 
-* DOM 及 DOM 扩展
-  * 通读《JavaScript 高级程序设计》(第 4 版) (第 14 章 DOM；第 15 章 DOM 扩展；第 16 章 DOM2 和 DOM3) P401 - P489
+## DOM 及 DOM 扩展
+* 通读《JavaScript 高级程序设计》(第 4 版) (第 14 章 DOM；第 15 章 DOM 扩展；第 16 章 DOM2 和 DOM3) P401 - P489
 
-* JS 中的垃圾回收机制和内存泄漏
-  * [JavaScript中的垃圾回收和内存泄漏](https://juejin.cn/post/6844903833387155464)
+## JS 中的垃圾回收机制和内存泄漏
+* [JavaScript中的垃圾回收和内存泄漏](https://juejin.cn/post/6844903833387155464)
 ```js
 内存泄漏定义：操作系统在运行程序时需要不断为变量动态分配内存，在JavaScript中， 变量的内存空间的申请和释放都由程序自己处理(JS的垃圾回收机制)，若程序没有正确回收和释放无用的内存，就会导致内存泄漏。
 
@@ -208,27 +208,27 @@ JS垃圾回收机制：找出不再使用的变量，然后释放掉其占用的
 对于无用的对象而言，可以通过手动设置 obj=null，让其尽快被垃圾回收机制回收。
 ```
 
-* DOM 级别事件绑定
-  * 《JavaScript 高级程序设计》(第 4 版) (事件处理程序 P493 - 498)
-  * [my-issue: JS 事件篇 - 事件处理程序](https://github.com/jtwang7/JavaScript-Note/issues/39)
+## DOM 级别事件绑定
+* 《JavaScript 高级程序设计》(第 4 版) (事件处理程序 P493 - 498)
+* [my-issue: JS 事件篇 - 事件处理程序](https://github.com/jtwang7/JavaScript-Note/issues/39)
 
-* BOM 的 location 对象
-  * [浏览器Location 对象，URL 对象，URLSearchParams 对象简析](https://juejin.cn/post/6999077663587434533)
-  * [my-issue: JS BOM 篇 - location 对象](https://github.com/jtwang7/JavaScript-Note/issues/44#issue-1020633051)
+## BOM 的 location 对象
+* [浏览器Location 对象，URL 对象，URLSearchParams 对象简析](https://juejin.cn/post/6999077663587434533)
+* [my-issue: JS BOM 篇 - location 对象](https://github.com/jtwang7/JavaScript-Note/issues/44#issue-1020633051)
 
-* JS 的四种函数调用方式
-  * [JS 中的函数调用](https://juejin.cn/post/6844903496253177863#heading-11)
+## JS 的四种函数调用方式
+* [JS 中的函数调用](https://juejin.cn/post/6844903496253177863#heading-11)
 
-* 函数柯里化及其通用封装
-  * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
-  * [my-issue: CodeShredded - 函数柯里化](https://github.com/jtwang7/Code-Shredded/issues/17)
+## 函数柯里化及其通用封装
+* [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
+* [my-issue: CodeShredded - 函数柯里化](https://github.com/jtwang7/Code-Shredded/issues/17)
 
-* Event-Loop 事件循环 & 宏任务与微任务
-  * [my-issue: JS 基础篇 - 宏任务与微任务 & EventLoop事件循环](https://github.com/jtwang7/JavaScript-Note/issues/49)
+## Event-Loop 事件循环 & 宏任务与微任务
+* [my-issue: JS 基础篇 - 宏任务与微任务 & EventLoop事件循环](https://github.com/jtwang7/JavaScript-Note/issues/49)
 
-* JS 事件流(冒泡/捕获)
-  * 《JavaScript 高级程序设计》(第 4 版) (P490 - 492)
-  * [my-issue: JS 事件篇 - 事件冒泡 & 捕获机制](https://github.com/jtwang7/JavaScript-Note/issues/38)
+## JS 事件流(冒泡/捕获)
+* 《JavaScript 高级程序设计》(第 4 版) (P490 - 492)
+* [my-issue: JS 事件篇 - 事件冒泡 & 捕获机制](https://github.com/jtwang7/JavaScript-Note/issues/38)
 ```js
 DOM事件流描述了一次事件触发时，事件在DOM树中的传递过程。
 事件冒泡：触发的事件从文档树中触发本次事件的最深节点向上传递，冒泡到 文档树顶层对象document(DOM2规范规定)，或window对象(现代浏览器)。
@@ -238,22 +238,22 @@ DOM2 Events规范明确捕获阶段不会命中事件目标，但现代浏览器
 尽管现代浏览器中实现了捕获阶段执行事件处理程序，但我们仍要尽量遵循在事件捕获阶段仅执行事件拦截的逻辑，将事件响应放在到达目标和事件冒泡阶段执行。
 ```
 
-* JS 事件委托
-  * 《JavaScript 高级程序设计》(第 4 版) (P540 - 542)
+## JS 事件委托
+* 《JavaScript 高级程序设计》(第 4 版) (P540 - 542)
 
-* 浏览器从输入URL到页面渲染的整个流程（涉及到计算机网络数据传输过程、浏览器解析渲染过程）
-  * [浅谈 DNS](https://github.com/jtwang7/Internet-Note/issues/11)
-  * [TCP 连接的三次握手与四次挥手](https://github.com/jtwang7/Internet-Note/issues/6)
-  * [浏览器页面渲染机制](https://github.com/jtwang7/JavaScript-Note/issues/53)
+## 浏览器从输入URL到页面渲染的整个流程（涉及到计算机网络数据传输过程、浏览器解析渲染过程）
+* [浅谈 DNS](https://github.com/jtwang7/Internet-Note/issues/11)
+* [TCP 连接的三次握手与四次挥手](https://github.com/jtwang7/Internet-Note/issues/6)
+* [浏览器页面渲染机制](https://github.com/jtwang7/JavaScript-Note/issues/53)
 
-* 浏览器的回流（Reflow）和重绘（Repaints）
-  * [my-issue: JS深入浅出 - 浏览器的重绘(Repaint)与回流(Reflow)](https://github.com/jtwang7/JavaScript-Note/issues/2)
+## 浏览器的回流（Reflow）和重绘（Repaints）
+* [my-issue: JS深入浅出 - 浏览器的重绘(Repaint)与回流(Reflow)](https://github.com/jtwang7/JavaScript-Note/issues/2)
 
-* 跨域、同源策略及跨域实现方式和原理
-  * [my-issue: 跨域、同源策略及跨域实现方式和原理](https://github.com/jtwang7/JavaScript-Note/issues/54)
+## 跨域、同源策略及跨域实现方式和原理
+* [my-issue: 跨域、同源策略及跨域实现方式和原理](https://github.com/jtwang7/JavaScript-Note/issues/54)
 
-* setTimeout 计时为何会出现误差？requestAnimationFrame？
-  * [JS深入浅出 - requestAnimationFrame](https://github.com/jtwang7/JavaScript-Note/issues/1)
+## setTimeout 计时为何会出现误差？requestAnimationFrame？
+* [JS深入浅出 - requestAnimationFrame](https://github.com/jtwang7/JavaScript-Note/issues/1)
 
 # ES6
 * let / const
@@ -289,21 +289,21 @@ DOM2 Events规范明确捕获阶段不会命中事件目标，但现代浏览器
   * [my-issue: ES6 - async](https://github.com/jtwang7/JavaScript-Note/issues/48#issue-1020804084)
 
 # CSS
-* CSS权重及其引入方式
-  * [css权重和超越!important](https://juejin.cn/post/6844903894313598989#heading-6) 
+## CSS权重及其引入方式
+* [css权重和超越!important](https://juejin.cn/post/6844903894313598989#heading-6) 
 
-* CSS 绘制三角形
-  * [my-issue: CSS 绘制三角形](https://github.com/jtwang7/CSS-Note/issues/12#issue-972392371)
+## CSS 绘制三角形
+* [my-issue: CSS 绘制三角形](https://github.com/jtwang7/CSS-Note/issues/12#issue-972392371)
 
-* CSS 绘制菱形/梯形/平行四边形
-  * [my-issue: CSS 绘制梯形 / 平行四边形 / 菱形](https://github.com/jtwang7/CSS-Note/issues/12#issuecomment-946334723)
+## CSS 绘制菱形/梯形/平行四边形
+* [my-issue: CSS 绘制梯形 / 平行四边形 / 菱形](https://github.com/jtwang7/CSS-Note/issues/12#issuecomment-946334723)
 
-* 元素水平垂直居中
-  * [CSS-水平居中、垂直居中、水平垂直居中](https://segmentfault.com/a/1190000014116655)
-  * [16种方法实现水平居中垂直居中](https://juejin.cn/post/6844903474879004680)
+## 元素水平垂直居中
+* [CSS-水平居中、垂直居中、水平垂直居中](https://segmentfault.com/a/1190000014116655)
+* [16种方法实现水平居中垂直居中](https://juejin.cn/post/6844903474879004680)
 
-* display: none, visibility: hidden, opacity: 0 的区别
-  * [display:none visibility:hidden opacity:0 区别](https://juejin.cn/post/6844904200401502215)
+## display: none, visibility: hidden, opacity: 0 的区别
+* [display:none visibility:hidden opacity:0 区别](https://juejin.cn/post/6844904200401502215)
 
 ## IE盒模型与标准盒模型(box-sizing属性)
 * [IE盒模型和标准盒模型的区别](https://www.jianshu.com/p/cc2bc404269b)
